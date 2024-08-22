@@ -1,0 +1,16 @@
+.list{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px; 
+}
+
+.thead-grey th {
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+  }
+ 
+  .tbody-color td{
+    padding-left: 15px;
+  }
+  

@@ -1,0 +1,40 @@
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    margin:30px 75px;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.search-container {
+    position: relative;
+   
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 35px; /* Add space for the icon */
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff; 
+  }
+  
+  .search-input::placeholder {
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .search-input::before {
+    content: "\1F50D"; /* Unicode for the search icon */
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
